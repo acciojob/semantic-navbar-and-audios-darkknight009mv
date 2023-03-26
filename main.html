@@ -4,10 +4,71 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	 <style>
+      .block {
+        display: block;
+      }
+      .inline {
+        display: inline;
+      }
+    </style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div data-ns-test="block-inline-div">
+      <div class="block">Test1</div>
+      <div class="block">Test2</div>
+      Answer: Block
+    </div>
+
+    <div data-ns-test="block-inline-button">
+      <button class="inline">Test1</button>
+      <button class="inline">Test2</button>
+      Answer: Inline
+    </div>
+
+    <div data-ns-test="block-inline-span">
+      <span class="inline">Test1</span>
+      <span class="inline">Test2</span>
+      Answer: Inline
+    </div>
+
+    <div data-ns-test="block-inline-p">
+      <p class="block">Test1</p>
+      <p class="block">Test2</p>
+      Answer: Block
+    </div>
+
+    <div data-ns-test="block-inline-input">
+      <input class="inline" type="text" value="Test1">
+      <input class="inline" type="text" value="Test2">
+      Answer: Inline
+    </div>
+
+    <div data-ns-test="block-inline-cite">
+      <cite class="inline">Test1</cite>
+      <cite class="inline">Test2</cite>
+      Answer: Inline
+    </div>
+
+    <div data-ns-test="block-inline-h1">
+      <h1 class="block">Test1</h1>
+      <h1 class="block">Test2</h1>
+      Answer: Block
+    </div>
+
+    <div data-ns-test="block-inline-sup">
+      <sup class="inline">Test1</sup>
+      <sup class="inline">Test2</sup>
+      Answer: Inline
+    </div>
+
+    <div data-ns-test="block-inline-sub">
+      <sub class="inline">Test1</sub>
+      <sub class="inline">Test2</sub>
+      Answer: Inline
+    </div>
     <script type="text/javascript" src="./script.js">
 </script>
 
